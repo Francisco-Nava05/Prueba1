@@ -1,0 +1,209 @@
+UAEM@CUZ- MINGW64 ~
+$ git --version
+git version 2.25.1.windows.1
+
+UAEM@CUZ- MINGW64 ~
+$ git config --global user.name "Francisco-Nava05"
+
+UAEM@CUZ- MINGW64 ~
+$ git config --global user.email "josefrancisconava07@gmail.com"
+
+UAEM@CUZ- MINGW64 ~
+$ git config user.name
+Francisco-Nava05
+
+UAEM@CUZ- MINGW64 ~
+$ git config user.email
+josefrancisconava07@gmail.com
+
+UAEM@CUZ- MINGW64 ~
+$ git clone https://github.com/Francisco-Nava05/Prueba1.git
+Cloning into 'Prueba1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 616 bytes | 6.00 KiB/s, done.
+
+UAEM@CUZ- MINGW64 ~
+$ ls -a
+ ./          'Configuración local'@   Documents/         Links/             ntuser.dat.LOG1                                                                                ntuser.ini    Reciente@
+ ../          Contacts/               Downloads/        'Menú Inicio'@      ntuser.dat.LOG2                                                                                ntuser.pol   'Saved Games'/
+ .gitconfig   Cookies@               'Entorno de red'@  'Mis documentos'@   NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf                                        Pictures/     Searches/
+ .minttyrc   'Datos de programa'@     Favorites/         Music/             NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms   Plantillas@   SendTo@
+ AppData/     Desktop/                Impresoras@        NTUSER.DAT         NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms   Prueba1/      Videos/
+
+UAEM@CUZ- MINGW64 ~
+$ cd prueba1/
+
+UAEM@CUZ- MINGW64 ~/prueba1 (master)
+$ cd..
+bash: cd..: command not found
+
+UAEM@CUZ- MINGW64 ~/prueba1 (master)
+$ cd ..
+
+UAEM@CUZ- MINGW64 ~
+$ cd ..
+
+UAEM@CUZ- MINGW64 /c/Users
+$ cd..
+bash: cd..: command not found
+
+UAEM@CUZ- MINGW64 /c/Users
+$ cd ..
+
+UAEM@CUZ- MINGW64 /c
+$ cd ..
+
+UAEM@CUZ- MINGW64 /
+$ cd ..
+
+UAEM@CUZ- MINGW64 /
+$ cd prueba1/
+bash: cd: prueba1/: No such file or directory
+
+UAEM@CUZ- MINGW64 /
+$ cd prueba1/
+bash: cd: prueba1/: No such file or directory
+
+UAEM@CUZ- MINGW64 /
+$ cd prueba1
+bash: cd: prueba1: No such file or directory
+
+UAEM@CUZ- MINGW64 /
+$ cd ~
+
+UAEM@CUZ- MINGW64 ~
+$ cd prueba1/
+
+UAEM@CUZ- MINGW64 ~/prueba1 (master)
+$ git checkout -b "update-readme"
+Switched to a new branch 'update-readme'
+
+UAEM@CUZ- MINGW64 ~/prueba1 (update-readme)
+$ mkdir Prueba de Git
+
+UAEM@CUZ- MINGW64 ~/prueba1 (update-readme)
+$ ls
+de/  Git/  Prueba/  README.md
+
+UAEM@CUZ- MINGW64 ~/prueba1 (update-readme)
+$ cd Prueba de Git
+bash: cd: too many arguments
+
+UAEM@CUZ- MINGW64 ~/prueba1 (update-readme)
+$ ls -al
+total 9
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:49 ./
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:41 ../
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:46 .git/
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:49 de/
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:49 Git/
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:49 Prueba/
+-rw-r--r-- 1 UAEM 197121 30 feb 28 10:41 README.md
+
+UAEM@CUZ- MINGW64 ~/prueba1 (update-readme)
+$ git clone https://github.com/Francisco-Nava05/Prueba1.git
+Cloning into 'Prueba1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 616 bytes | 5.00 KiB/s, done.
+
+UAEM@CUZ- MINGW64 ~/prueba1 (update-readme)
+$ ls -al
+total 9
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:51 ./
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:41 ../
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:46 .git/
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:49 de/
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:49 Git/
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:49 Prueba/
+drwxr-xr-x 1 UAEM 197121  0 feb 28 10:51 Prueba1/
+-rw-r--r-- 1 UAEM 197121 30 feb 28 10:41 README.md
+
+UAEM@CUZ- MINGW64 ~/prueba1 (update-readme)
+$ get init
+bash: get: command not found
+
+UAEM@CUZ- MINGW64 ~/prueba1 (update-readme)
+$ git init
+Reinitialized existing Git repository in C:/Users/UAEM/Prueba1/.git/
+
+UAEM@CUZ- MINGW64 ~/prueba1 (update-readme)
+$ git status
+On branch update-readme
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Prueba1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+UAEM@CUZ- MINGW64 ~/prueba1 (update-readme)
+$ cd Prueba1
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (master)
+$ pwd
+/c/Users/UAEM/prueba1/Prueba1
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/UAEM/Prueba1/Prueba1/.git/
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (master)
+$ git checkout -b "prueba1"
+Switched to a new branch 'prueba1'
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (prueba1)
+$ git status
+On branch prueba1
+nothing to commit, working tree clean
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (prueba1)
+$ git add .
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (prueba1)
+$ git status
+On branch prueba1
+nothing to commit, working tree clean
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (prueba1)
+$ git commit -m "Le agregue una linea"
+On branch prueba1
+nothing to commit, working tree clean
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (prueba1)
+$ git log
+commit fca396a5d72fdaff31495671f6112a02a5acbf56 (HEAD -> prueba1, origin/master, origin/HEAD, master)
+Author: Francisco-Nava05 <61593879+Francisco-Nava05@users.noreply.github.com>
+Date:   Fri Feb 28 10:39:23 2020 -0600
+
+    Initial commit
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (prueba1)
+$ git ^C
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (prueba1)
+$ git reset fca396a5d72fdaff31495671f6112a02a5acbf56 --hard
+HEAD is now at fca396a Initial commit
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (prueba1)
+$ git status
+On branch prueba1
+nothing to commit, working tree clean
+
+UAEM@CUZ- MINGW64 ~/prueba1/Prueba1 (prueba1)
+$ git push
+fatal: The current branch prueba1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin prueba1
+
+
